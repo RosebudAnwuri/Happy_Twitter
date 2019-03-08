@@ -1,0 +1,117 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css";
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+    background-color: #11cdef;
+}
+
+.nav-pills .nav-link {
+	color:#11cdef;
+}
+
+.navbar-vertical.navbar-expand-md .navbar-brand-img {
+    max-height: 7.5rem;
+}
+
+.navbar-vertical.navbar-expand-md .navbar-brand{
+	    padding-bottom: 0rem;
+}
+#happiness_gauge text {
+
+	font-family: 'Open Sans',sans-serif !important;
+	font-size: 23px;
+	fill: white;
+
+ }
+ 
+.fa-grin-beam{
+	 color:#6EEB83;
+	 text-align: center;
+    width: 100%;
+    font-size: 27pt;
+ }
+ 
+.fa-sad-tear{
+	 color:#FF7675;
+	 text-align: center;
+    width: 100%;
+    font-size: 27pt;
+ }
+
+
+.fa-meh{
+	 color:#FDCB6E;
+	 text-align: center;
+    width: 100%;
+    font-size: 27pt;
+ }
+ 
+ #default-top_word{
+	font-size: 5em;
+    color: #11cdef;
+    text-align: center;
+ }
+
+.happy-title{
+	color:#FFEC6E;
+}
+
+#default-top1_cloud text{
+	text-transform:capitalize;
+	text-anchor: start;
+}
+#default-top5 text{
+	font-family: 'Open Sans';
+	text-transform:capitalize;
+}
+em{
+	font-size: 8pt;
+}
+
+.badge.badge-pill.badge-primary{
+	color: #BDB9DA;
+	background:rgba(189, 185, 218,.5);
+}
+
+.badge.badge-pill.badge-success{
+	color: #8DD2C6;
+	background:rgba(141, 210, 198,.5);
+}
+
+.badge.badge-pill.badge-warning{
+	color: #FCB461;
+	background:rgba(252, 180, 97,.5);
+}
+
+.badge.badge-pill.badge-info{
+	color: #80B0D2;
+	background:rgba(128, 176, 210,.5);
+}
+.text-danger.mr-2{
+	display:none;
+}
+
+.bg-lightskyblue{
+    background-color: lightskyblue;
+}
+
+.bg-green{
+    background-color: #8DD3C7;
+}
+
+
+.bg-orange{
+    background-color: #FCB461;
+}
+.sunburst-sequence{
+	font-size: 8pt;
+}
+
+.graph-focus-margin{
+	margin:5px !important;
+}
+
+.fc-title{
+	font-size: 0.45vw;
+}
+
