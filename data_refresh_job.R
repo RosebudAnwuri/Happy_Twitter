@@ -546,3 +546,7 @@ walk(files,copy_directories)
 
 #delete folders in root folder
 unlink(files,recursive = T)
+
+#Deploy App
+library(rsconnect)
+deployApp(appDir = 'C:/Users/tf452yw/Documents/Happy_Twitter')
