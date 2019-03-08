@@ -22,9 +22,9 @@ library(htmlwidgets)
 setwd('C:/Users/tf452yw/Documents/TheArtandScienceofData/Angry_Happy_Twitter')
 
 #create token
-token <- create_token(app = 'TheArtandScienceofData','wn7M23NbDoOAWogW3KpebX5Cq','cwynWugYkE3Dn63qgKapLgxNegEPJWfquiqWfibBeQTmRYWxvG','370018889-n8oOECLBk89f19bvU9uUt2nlISAnLqF9cfczjTaf','blujMfPlQLI52RH3vvzUAJBvWgdzObSxWKOAwgPFyvlX6',set_renv = FALSE)
+token <- create_token(app = 'TheArtandScienceofData','wn7M23NbDoOAWogW3KpebX5Cq','cwynWugYkE3Dn63qgKapLgxNegEPJWfquiqWfibBeQTmRYWxvG','370018889-n8oOECLBk89f19bvU9uUt2nlISAnLqF9cfczjTaf','xxxx',set_renv = FALSE)
 
-Sys.setenv(https_proxy = "http://TF452YW:Bellatrix7£@empweb2.ey.net:8080/")
+
 
 #Read in the mapping between ISO language codes and its descriptions
 language_codes <- read.csv('language_codes.csv',stringsAsFactors = F)
