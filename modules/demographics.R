@@ -30,6 +30,7 @@ demographicsModuleInput <- function(id){
         )),
         argonRow(
           h3('Location of Tweets',style='text-align:center;'),
+          em('Click on the circles to drill down into countries'),
           leafletOutput(ns('location_map'))
         )
       )
@@ -91,6 +92,7 @@ demographicsModuleInput <- function(id){
     leaflet(geo_data)%>%
       addTiles() %>% addMarkers(
         clusterOptions = markerClusterOptions(),icon = list(iconUrl='https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/300px-Twitter_Bird.svg.png',iconSize=c(15,15)),
+        label = ~text
       )
     
   })

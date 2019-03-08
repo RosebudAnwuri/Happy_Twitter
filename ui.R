@@ -36,10 +36,10 @@ library(ggpage) #ggpage viz
 library(leaflet) #map viz
 library(dbplyr) #for communicating with databases
 library(fullcalendar) #for calendar viz
-token <- create_token(app = 'TheArtandScienceofData','wn7M23NbDoOAWogW3KpebX5Cq'
-                      ,'cwynWugYkE3Dn63qgKapLgxNegEPJWfquiqWfibBeQTmRYWxvG'
-                      ,'370018889-n8oOECLBk89f19bvU9uUt2nlISAnLqF9cfczjTaf'
-                      ,'blujMfPlQLI52RH3vvzUAJBvWgdzObSxWKOAwgPFyvlX6'
+token <- create_token(app = 'TheArtandScienceofData','xxxx'
+                      ,'xxxx'
+                      ,'xxxx'
+                      ,'xxxx'
                       ,set_renv = FALSE)
 
 # Define UI for application

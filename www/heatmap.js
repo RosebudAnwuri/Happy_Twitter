@@ -17,12 +17,11 @@ $(document).on({
 
   }); 
   
-  $(document).ready(function(){
-	  $('#tab-main').on('click', function() {
+ $('#tab-main').on('click', function() {
   
-    $('#tab-about').removeClass('active show');
+    $('#shiny-tab-about').removeClass('active show');
 	
-	 $('#tab-main').addClass('active show');
+	 $('#shiny-tab-main').addClass('active show');
 	
   });  
 
@@ -30,12 +29,12 @@ $(document).on({
 
 $('#tab-about').on('click', function() {
     
-  $('#tab-about').addClass('active show');
+  $('#shiny-tab-about').addClass('active show');
 	
-	 $('#tab-main').removeClass('active show');
+	 $('#shiny-tab-main').removeClass('active show');
 	 
   }); 
-  })
+
   
  
 	
